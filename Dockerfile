@@ -7,6 +7,7 @@ ADD package.json .
 ADD index.js .
 ADD build .
 
+COPY . .
 RUN npm install
 
 EXPOSE 8080
